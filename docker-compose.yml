@@ -1,0 +1,7 @@
+version: '3'
+services:
+  textutils:
+    image: omsantoshharsule/textutils:v1
+    ports:
+      - 3000
+      
