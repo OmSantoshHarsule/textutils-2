@@ -3,5 +3,5 @@ services:
   textutils:
     image: omsantoshharsule/textutils:v1
     ports:
-      - 3000
+      - 3000:3000
       
