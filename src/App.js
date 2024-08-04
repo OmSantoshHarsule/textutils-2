@@ -4,7 +4,7 @@ import TextFrom from './Components/TextFrom';
 import About from './Components/about';
 import React, { useState } from 'react';
 import Alert from './Components/alert';
-import{BrowserRouter as Router, Route,Link, Routes} from "react-router-dom"; 
+import{BrowserRouter as Router, Route, Routes} from "react-router-dom"; 
 
 function App() {
   const [mode, setMode] = useState('light');
