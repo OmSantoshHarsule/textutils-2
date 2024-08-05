@@ -8,7 +8,7 @@ spec:
   restartPolicy: Always            # Always, OnFailure, Never
   containers:
   - name: textutils
-    image: omsantoshharsule/textutils
+    image: omsantoshharsule/textutils:latest
     imagePullPolicy: Always  # Always, IfNotPresent, Never
     ports:
     - containerPort: 3000
