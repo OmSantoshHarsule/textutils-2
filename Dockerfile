@@ -1,5 +1,5 @@
 # Step 1: Use an official Node.js runtime as a parent image
-FROM node:14-alpine
+FROM node:18-alpine
 
 # Step 2: Set the working directory in the container
 WORKDIR /app
@@ -20,7 +20,7 @@ RUN npm run build
 RUN npm install -g serve
 
 # Step 8: Expose port 5000
-EXPOSE 3000
+EXPOSE 5000
 
 # Step 9: Start the app using serve
-CMD ["serve", "-s", "build", "-l", "3000"]
+CMD ["serve", "-s", "build", "-l", "5000"]
